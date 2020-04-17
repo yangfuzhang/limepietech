@@ -1,0 +1,48 @@
+{
+  "name": "limepie",
+  "version": "1.0.0",
+  "description": "package dependencies for limepie",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangfuzhang/mini-translation.git"
+  },
+  "keywords": [
+    "limepie"
+  ],
+  "author": "yangfuzhang0720@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangfuzhang/mini-translation/issues"
+  },
+  "homepage": "https://github.com/yangfuzhang/mini-translation/blob/master/readme.md",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "element-ui": "^2.13.1",
+    "node-sass": "^4.13.1",
+    "vue": "^2.5.2"
+  },
+  "devDependencies": {
+    "axios": "^0.17.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap-sass": "^3.3.7",
+    "cross-env": "^5.1.1",
+    "jquery": "^3.2.1",
+    "laravel-mix": "^1.5.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "lodash": "^4.17.4",
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1"
+  }
+}
