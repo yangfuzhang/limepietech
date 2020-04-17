@@ -29,7 +29,6 @@
     "babel": "^6.23.0",
     "babel-polyfill": "^6.26.0",
     "element-ui": "^2.13.1",
-    "node-sass": "^4.13.1",
     "vue": "^2.5.2"
   },
   "devDependencies": {
@@ -42,6 +41,7 @@
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
     "lodash": "^4.17.4",
+    "node-sass": "^4.13.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   }

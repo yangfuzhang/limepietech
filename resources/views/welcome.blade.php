@@ -23,6 +23,7 @@
     <link href="/css/app.css" rel="stylesheet">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
     <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
     <!-- Scripts -->
     <script>
         window.Laravel = {!! json_encode([
@@ -31,10 +32,11 @@
     </script>
 </head>
 <body>
-
-    <div id="app">
-       v1.0.0: This is a website for api requests.
-    </div>
+    <div id="app"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
     <script src="/js/app.js"></script>
 </body>
 </html>

@@ -13,8 +13,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::post('recognize', 'AppController@recognize');//线上用
-Route::post('/upload', 'AppController@upload');
-Route::post('/constellation', 'AppController@constellation');
-
-Route::get('ffmpeg', 'AppController@ffmpeg');
+Route::post('/', 'TestController@index');
